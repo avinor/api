@@ -12,15 +12,15 @@ To create a user to access API's follow these instructions:
 2. Sign up for new user, fill in Company name and Contact Person.
 3. Go to Products and subscribe to a new product package.
 
-
+![products](/images/products.png "Products")
 
 ## Products
 
 ### Parking whitelist
 
-Control whitelisting of cars for parking on airport.
-
 *Requires approval*
+
+Control whitelisting of cars for parking on airports. Restricted access to parking companies.
 
 ## Programatically access API
 
@@ -35,5 +35,5 @@ curl https://login.microsoftonline.com/avinorapi.onmicrosoft.com/oauth2/v2.0/tok
 The result will contain an `access_token` that can be used for authentication agains API's.
 
 ```bash
-curl -H 'Authentication: Bearer <access_token>' https://api.avinor.no/...
+curl -H 'Authentication: Bearer <access_token>' https://avinorapi.azure-api.net/...
 ```
