@@ -1,14 +1,18 @@
 # Avinor API
 
-Access to Avinor API is controlled through Azure API Management. To get access register a new user and subscribe to those api's of interest. Some API's are not publically accessible and w
+Access to Avinor API is controlled through Azure API Management. To get access register a new user and subscribe to those api's of interest. Some API's are not publically accessible and requires approval by Avinor.
+
+PS. API url will change at one point to api.avinor.no.
 
 ## Sign up
 
 To create a user to access API's follow these instructions:
 
 1. Go to <https://avinorapi.portal.azure-api.net/>.
-2. Sign up for new user.
+2. Sign up for new user, fill in Company name and Contact Person.
 3. Go to Products and subscribe to a new product package.
+
+
 
 ## Products
 
