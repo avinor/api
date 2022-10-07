@@ -35,5 +35,5 @@ curl https://login.microsoftonline.com/avinorapi.onmicrosoft.com/oauth2/v2.0/tok
 The result will contain an `access_token` that can be used for authentication agains API's.
 
 ```bash
-curl -H 'Authentication: Bearer <access_token>' https://avinorapi.azure-api.net/...
+curl -H 'Authorization: Bearer <access_token>' https://avinorapi.azure-api.net/...
 ```
